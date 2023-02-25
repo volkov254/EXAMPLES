@@ -13,6 +13,6 @@ while (index < n)
         Console.WriteLine(index);
         break; // прервать;
     }
-    // index = index + 1;
-    index++;
+    
+    index++;// index = index + 1;
 }
