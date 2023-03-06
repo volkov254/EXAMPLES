@@ -49,8 +49,6 @@ string A = Console.ReadLine()??"";
 int NumA = 0;
 if (A !=null)
     NumA = int.Parse(A);
-
-
 Console.Write("Введите второе число :");
    string B = Console.ReadLine()??"";
 int NumB = 0;
@@ -105,7 +103,7 @@ else
                 Console.WriteLine($"Число {num} -> Нет");
             }
             */
-            
+///     Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N. 
 Console.WriteLine("Введите число:");
  int Num = Convert.ToInt32(Console.ReadLine());
   int i = 1;
